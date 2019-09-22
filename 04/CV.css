@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+}
+
+html {
+  text-align: center;
+}
+
+body {
+  background-image: url(./dot-grid.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1 {
+  color: red;
+  font-weight: normal;
+  font-size: 2.5em;
+  text-shadow: 3px 3px 5px;
+  background-color: gray;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  line-height: 1.8;
+  padding: 2px 1px 0;
+}
+
+a:link {
+  color: #265301;
+}
+
+a:visited {
+  color: #437A16;
+}
+
+a:focus {
+  border-bottom: 1px solid;
+  background: #BAE498;
+}
+
+a:hover {
+  border-bottom: 1px solid;     
+  background: #CDFEAA;
+}
+
+a:active {
+  background: #265301;
+  color: #CDFEAA;
+}
+
+#contact {
+  line-height: 1.8;
+  list-style-type: none;
+}
+
+table {
+  margin: auto;
+  line-height: 1.5;
+}
+
+.even {
+  color: gray;
+}
+
+ul {
+  font-size: 1.2em;
+  line-height: 1.5;
+  list-style-position: inside;
+  margin: auto;
+  list-style-type: square;
+}
+
+#name {
+  width: 150px;
+  margin: auto;
+  border-style: dashed;
+  border-color: aqua;
+  border-width: 3px 1px;
+}
