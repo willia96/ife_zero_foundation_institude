@@ -21,14 +21,14 @@ ul {
 .entry {
   margin-bottom: 1px;
   overflow: hidden;
-  border-top: #DCDCDC solid 1px;
-  border-right: #DCDCDC solid 1px;
+  border-top: #dcdcdc solid 1px;
+  border-right: #dcdcdc solid 1px;
 }
 
-.entry h2{
+.entry h2 {
   float: left;
   width: 10%;
-  background-color: #DCDCDC;
+  background-color: #dcdcdc;
   height: 5em;
   display: block;
   text-align: center;
@@ -59,9 +59,10 @@ ul li {
 
 ul li span {
   display: inline-block;
-  padding-right:0.7em;
+  padding-right: 0.7em;
 }
 
-.item h3,p {
+.item h3,
+p {
   display: inline-block;
 }

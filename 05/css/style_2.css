@@ -1,51 +1,52 @@
 #title {
-  float: left;
-  width: 18%;
-  height: 700px;
-  background-color: #57faff;
+    float: left;
+    width: 18%;
+    height: 700px;
+    background-color: #57faff;
 }
 
-#title h1{
-  display: block;
-  margin: 2em auto;
-  text-align: center;
-  color: white;
+#title h1 {
+    display: block;
+    margin: 2em auto;
+    text-align: center;
+    color: white;
 }
 
 #content {
-  box-sizing: border-box;
-  float: right;
-  width: 82%;
-  padding-left: 1em;
+    box-sizing: border-box;
+    float: right;
+    width: 82%;
+    padding-left: 1em;
 }
 ul {
-  padding: 0;
-  list-style: none;
+    padding: 0;
+    list-style: none;
 }
 
 span {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 ul li {
-  padding-right: 3em;
-  display: inline-block;
+    padding-right: 3em;
+    display: inline-block;
 }
 
 ul li span {
-  display: inline-block;
-  padding-right:1em;
+    display: inline-block;
+    padding-right: 1em;
 }
 
-.item h3, p{
-  margin: 0 0;
+.item h3,
+p {
+    margin: 0 0;
 }
 
 .item {
-  margin-top: 10px;
+    margin-top: 10px;
 }
 
-.item h3{
-  font-weight:600;
-  font-size: 1em;
+.item h3 {
+    font-weight: 600;
+    font-size: 1em;
 }
