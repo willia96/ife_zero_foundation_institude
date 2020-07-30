@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>两栏布局，右侧固定宽度，左侧根据浏览器宽度进行自适应变化</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #main {
+            position: relative;
+        }
+
+        #right {
+            background-color: brown;
+            width: 200px;
+            /* height: 100%; */
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
+        #left {
+            background-color: aqua;
+            /* height: 100%; */
+            margin-right: 210px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div id="left">
+            <p>
+                测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试
+            </p>
+        </div>
+        <div id="right">
+            测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试
+        </div>
+    </div>
+
+</body>
+
+</html>
